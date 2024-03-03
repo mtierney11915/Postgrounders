@@ -15,7 +15,7 @@ col= st.columns([5, 2])  # Divide the space into three equal columns
 
 #Read in Data
 #df=pd.read_excel(r'C:\Users\Matt Tierney\OneDrive\Post U Baseball\Post Ground Ball Data.xlsx')
-df=pd.read_excel('Post Ground Ball Data.xlsx')
+df=pd.read_excel(r'Post Ground Ball Data.xlsx')
 #Subset Game Column
 game_column = df['Game'].tolist()
 gamelist=df['Game'].unique()
